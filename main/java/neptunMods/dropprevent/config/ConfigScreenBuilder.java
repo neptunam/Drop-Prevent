@@ -11,7 +11,7 @@ public class ConfigScreenBuilder {
     public static Screen build(Screen parent) {
         ConfigBuilder builder = ConfigBuilder.create()
                 .setParentScreen(parent)
-                .setTitle(Component.literal("DropPrevent Configuration"));
+                .setTitle(Component.literal("Drop Prevent configuration"));
 
         ConfigCategory category = builder.getOrCreateCategory(Component.literal("General"));
         ConfigEntryBuilder entryBuilder = builder.entryBuilder();
