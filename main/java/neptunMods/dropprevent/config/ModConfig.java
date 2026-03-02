@@ -13,7 +13,7 @@ public class ModConfig {
     public boolean inventoryProtection = false;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
-    private static final File FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "dropprevent.json");
+    private static final File FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "dropPrevent.json");
     public static ModConfig INSTANCE = new ModConfig();
 
     public static void load() {
@@ -30,7 +30,7 @@ public class ModConfig {
         try (FileWriter writer = new FileWriter(FILE)) {
             GSON.toJson(INSTANCE, writer);
         } catch (Exception e) {
-            System.err.println("Nie udało się zapisać konfiguracji DropPrevent!");
+            System.err.println("Failed to save configuration!");
         }
     }
 }
