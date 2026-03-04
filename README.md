@@ -11,6 +11,7 @@ It disables the drop key for selected inventory slots, preventing accidental ite
 
 * **Hotbar Drop Protection** – Blocks dropping items from the hotbar (enabled by default)
 * **Inventory Drop Protection** – Blocks dropping items from the entire inventory (disabled by default)
+* **Show actionbar message** - Shows a warning message when attempting to drop items while it's disabled (enabled by default)
 
 To configure mod, click Esc -> **Mods** -> **Drop Prevent**
 
