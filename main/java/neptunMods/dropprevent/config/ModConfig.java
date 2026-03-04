@@ -11,6 +11,7 @@ import java.io.FileWriter;
 public class ModConfig {
     public boolean hotbarProtection = true;
     public boolean inventoryProtection = false;
+    public boolean showMessage = true;
 
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
     private static final File FILE = new File(FabricLoader.getInstance().getConfigDir().toFile(), "dropPrevent.json");
