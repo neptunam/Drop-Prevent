@@ -26,6 +26,11 @@ public class ConfigScreenBuilder {
                 .setSaveConsumer(newValue -> ModConfig.INSTANCE.inventoryProtection = newValue)
                 .build());
 
+        category.addEntry(entryBuilder.startBooleanToggle(Component.literal("Show actionbar message"), ModConfig.INSTANCE.showMessage)
+                .setDefaultValue(true)
+                .setSaveConsumer(newValue -> ModConfig.INSTANCE.showMessage = newValue)
+                .build());
+
         builder.setSavingRunnable(ModConfig::save);
 
         return builder.build();
