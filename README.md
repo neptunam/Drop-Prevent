@@ -1,4 +1,7 @@
-### What is Drop Prevent? 🦐
+
+![](https://cdn.modrinth.com/data/cached_images/7d3437386a58db8236f401e58ceb92dcf431a0d6.png)
+#
+### What is the Drop Prevent mod? 🦐
 
 Ever dropped your sword in the middle of a fight?
 Or accidentally thrown a shulker box straight into lava?
