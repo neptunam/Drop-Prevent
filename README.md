@@ -39,5 +39,5 @@ To configure mod, click Esc -> **Mods** -> **Drop Prevent**
 
 * **Java 21** or higher
 * **Fabric 0.16.9** or higher
-* **Minecraft 1.21.11** or higher
+* **Minecraft 1.21.11** (**26.1** is currently **not supported**)
 * [**Fabric API**](https://modrinth.com/mod/fabric-api) and [**Mod Menu**](https://modrinth.com/mod/modmenu)
